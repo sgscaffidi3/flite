@@ -104,7 +104,7 @@ else
 shared_libs: nothing
 endif
 
-.NOTPARALLEL: $(ALL)
+.NOTPARALLEL:
 
 flite_lang_list: 
 	rm -f flite_lang_list.c
